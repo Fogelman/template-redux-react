@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const Yup = require('Yup');
+const Yup = require('yup');
 
 const schema = Yup.object().shape({
   email: Yup.string()
